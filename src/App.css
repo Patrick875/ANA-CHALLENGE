@@ -1,0 +1,88 @@
+.create-fertilizer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-form {
+    margin: 2.3em 0;
+    width: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.create-form h3 {
+    text-align: center;
+}
+
+.form-container {
+    margin: 1em 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form {
+    width: 80%;
+}
+
+.form div {
+    width: 100%
+}
+
+.form label {
+    display: block;
+}
+
+
+input[type=text],
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.button-container {
+    display: flex;
+
+    justify-content: center;
+}
+
+.add-button {
+    display: block;
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    margin: 1.2em 0;
+    outline: none;
+    padding: 8px .8em;
+    ;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.add-button:hover,
+.add-button:focus {
+    background-color: #07c;
+}
+
+.add-button:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.add-button:active {
+    background-color: #0064bd;
+    box-shadow: none;
+}
